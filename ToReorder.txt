@@ -1,0 +1,15 @@
+Product ID AS01 need reordering (Currently : 20). Quantity needed : 30
+Product ID AS02 need reordering (Currently : 18). Quantity needed : 32
+Product ID AS03 need reordering (Currently : 15). Quantity needed : 35
+Product ID AS04 need reordering (Currently : 19). Quantity needed : 31
+Product ID AS05 need reordering (Currently : 25). Quantity needed : 25
+Product ID AS06 need reordering (Currently : 11). Quantity needed : 39
+Product ID AS07 need reordering (Currently : 12). Quantity needed : 38
+Product ID AS08 need reordering (Currently : 13). Quantity needed : 37
+Product ID AS09 need reordering (Currently : 23). Quantity needed : 27
+Product ID AS10 need reordering (Currently : 16). Quantity needed : 34
+Product ID AS11 need reordering (Currently : 27). Quantity needed : 23
+Product ID AS12 need reordering (Currently : 28). Quantity needed : 22
+Product ID AS13 need reordering (Currently : 17). Quantity needed : 33
+Product ID AS14 need reordering (Currently : 21). Quantity needed : 29
+Product ID AS15 need reordering (Currently : 22). Quantity needed : 28

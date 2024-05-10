@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 
+
+//This function use to Login in as manager role, To login you need ID and Password. And you have 3 attempts, once you login successfully you will be in the manager menu//
 void managerlogin() {
   int id, attempts = 3;
   char upassword[50];
@@ -11,8 +13,10 @@ void managerlogin() {
   while (attempts > 0) {
     printf("Please type your Id:\n");
     scanf("%d", &id);
+    clearBuffer();
     printf("Please type your Password:\n");
     scanf("%s", upassword);
+    clearBuffer();
     if (id == 6600) {
       if (strcmp(upassword, password) == 0) {
         printf("Login successful\n\n");
@@ -32,6 +36,7 @@ void managerlogin() {
   }
 }
 
+//This function use to Login in as cashier role, To login you need ID and Password. And you have 3 attempts, once you login successfully you will be in the cashier menu//
 void cashierlogin() {
   int id, attempts = 3;
   char upassword[50];
@@ -40,8 +45,10 @@ void cashierlogin() {
   while (attempts > 0) {
     printf("Please type your Id:\n");
     scanf("%d", &id);
+    clearBuffer();
     printf("Please type your Password:\n");
     scanf("%s", upassword);
+    clearBuffer();
     if (id > 6600) {
       if (strcmp(upassword, password) == 0) {
         printf("Login successful\n\n");
@@ -61,6 +68,7 @@ void cashierlogin() {
   }
 }
 
+//This function is used to let the user choose the login status.//
 void managerorcashier() {
   int choice;
   printf("-----Welcome-----\n");
@@ -70,6 +78,8 @@ void managerorcashier() {
   printf("3. Exit\n");
   printf("Enter your choice: \n");
   scanf("%d", &choice);
+  clearBuffer();
+  //You can select option by input the number//
   switch (choice) {
   case 1:
     printf("\n");
@@ -86,5 +96,6 @@ void managerorcashier() {
     printf("Invalid choice. Please choose again.\n");
     printf("\n");
     managerorcashier();
+    //If you input isn't in any case you will return in the selection role menu again//
   }
 }

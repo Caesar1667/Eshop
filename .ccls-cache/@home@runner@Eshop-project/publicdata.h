@@ -13,4 +13,7 @@ struct product {
     int cost;
     int selling_price;
 };
+
+int save_state = 1;
+
 #endif // PUBLICDATA_H
